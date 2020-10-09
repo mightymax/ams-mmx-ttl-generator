@@ -1,9 +1,4 @@
 <?php
-if (!file_exists(__DIR__. '/config.php')) {
-    fwrite(STDERR, "config file is missing, did you copy the dist config?\n");
-    exit(1);
-}
-
 $modules = [
     'Prefix',
     'RecordTypes',
@@ -42,6 +37,11 @@ if ($argv && in_array(trim($argv[0], '--'), $helpIds)) {
 USG;
     exit;
 }
+if (!file_exists(__DIR__. '/config.php')) {
+    fwrite(STDERR, "config file is missing, did you copy the dist config?\n");
+    exit(1);
+}
+
 require_once __DIR__ .'/includes/MemorixDB.php';
 
 $dbh = MemorixDB::getInstance()->setLimitAndOffset($argv);
