@@ -1,0 +1,16 @@
+### Condition Set ###
+
+<https://memorix.io/settings/conditionset/display_without_watermark>
+    a mmx:ConditionSet ;
+    conditionSet:removed                false ;
+    mmx:tenant                          <https://ams.memorix.io> ;
+    conditionSet:id                     "cf5f042a-f98a-4104-a563-754708126a6b" ;
+    conditionSet:title                  "Display Without Watermark"@nl ;
+    conditionSet:description            "I came from RDF import"@nl ;
+    conditionSet:createdBy              [ a                         mmx:User ;
+                                          user:uuid                 "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    conditionSet:createdAt              "2021-10-02"^^xsd:date ;
+    conditionSet:allowDownload          true ;
+    conditionSet:displayWithWatermark   false ;
+    conditionSet:allowDisplayOnline     true .
+

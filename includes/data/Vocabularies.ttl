@@ -1,0 +1,99 @@
+### Vocabularies ###
+
+<https://ams.memorix.io/collections/vocabularies/image_type>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "4faddc51-34dd-4729-878d-135dcf0432e4" ;
+    mmx:recordTypeId            "22375b6b-c231-4be0-add6-c50958311f60" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+    # dcterms:title             "Type Afbeelding"@nl; #TODO where does the title end up in Memorix? It's not the title of the vocabulary, this comes from the rdfs:label
+    rdfs:comment                "Lijst met afbeeldingtypes"@nl ;
+    rdfs:label                  "Afbeeldingtypes"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/corporate_body_type>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "50bd2383-0d8f-4865-b7b8-60b34a69f3e0" ;
+    mmx:recordTypeId            "9b88b8c5-1134-45c7-b7a5-bf39c5fa05cf" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+    rdfs:comment                "Lijst met organisatietypes"@nl ;
+    rdfs:label                  "Organisatietypes"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/nationality>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "11ff08bc-e4f0-43a3-80b2-21bd45ee6693" ;
+    mmx:recordTypeId            "cc5ce42a-58c7-4ad7-b58c-cce11e43a451" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Nationaliteiten"@nl;
+    rdfs:comment                "Lijst met nationaliteiten"@nl ;
+    rdfs:label                  "Nationaliteiten"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/gender>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "0d2e367d-7b08-429f-baca-63ed9c84b69c" ;
+    mmx:recordTypeId            "1c000136-aa6b-4228-917d-050740c62756" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Geslacht"@nl;
+    rdfs:comment                "Lijst met geslachten"@nl ;
+    rdfs:label                  "Geslacht"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/personal_relation_type>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "6fcbb288-2ea0-44cf-b1f1-abaa9eef7b9c" ;
+    mmx:recordTypeId            "597acd30-0617-4656-8554-e8fc0e998fe1" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Soorten Persoonlijke Relatie"@nl;
+    rdfs:comment                "Lijst met mogelijke relaties tussen personen"@nl ;
+    rdfs:label                  "Soorten Relaties"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/buildings>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "0b0f5385-8166-3a52-9d3c-6c10e2e170d6" ;
+    mmx:recordTypeId            "0b128a6b-f815-3774-91a6-bc02dca63b00" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Gebouwen"@nl;
+    rdfs:comment                "Lijst met gebouwen"@nl ;
+    rdfs:label                  "Gebouwen"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/public_spaces>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "1c59f174-7c2d-3232-8647-3485a73eeeb8" ;
+    mmx:recordTypeId            "8b16694d-e02b-32d7-9f04-90dfa06cbfa7" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Openbare ruimtes"@nl;
+    rdfs:comment                "Lijst met openbare ruimtes met een naam, zoals bruggen"@nl ;
+    rdfs:label                  "Openbare ruimtes"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/streets>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "83a0f932-b9f6-3c64-a3d7-2b5114e8b7ea" ;
+    mmx:recordTypeId            "e39179e1-da1e-38ad-a271-e4600d472bc8" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               "Straatnamen"@nl;
+    rdfs:comment                "Lijst met straatnamen"@nl ;
+    rdfs:label                  "Straatnamen"@nl .
+
+<https://ams.memorix.io/collections/vocabularies/sex>
+    a                           skos:ConceptScheme;
+    mmx:collectionId            "0d2e367d-7b08-429f-baca-63ed9c84b69c" ;
+    mmx:recordTypeId            "1c000136-aa6b-4228-917d-050740c62756" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:removed                 false ;
+    dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
+#    dcterms:title               ""@nl;
+    rdfs:comment                "Begrip waarmee de fysiologische eigenschappen worden beschreven die bij een soort de mannen van de vrouwen onderscheiden."@nl ;
+    rdfs:label                  "Geslacht"@nl .

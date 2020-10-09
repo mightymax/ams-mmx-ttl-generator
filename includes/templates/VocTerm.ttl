@@ -1,0 +1,8 @@
+<https://ams.memorix.io/collections/vocabularies/<?=$vocName?>/<?=$id?>>
+    a                           skos:Concept;
+    dcterms:created             "<?=$created?>"^^xsd:dateTime;
+    skos:inScheme               <https://ams.memorix.io/collections/vocabularies/<?=$vocName?>> ;
+    skos:prefLabel              "<?=$prefLabel?>"@nl;
+    skos:scopeNote              "<?=$scopeNote?>"@nl;
+    skos:exactMatch             <<?=$exactMatch?>> .
+

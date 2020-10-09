@@ -1,0 +1,63 @@
+
+### <?=$counter?> Record <?=$row->uuid?> ###
+<https://ams.memorix.io/record/image/<?=$row->uuid?>> a mmx:Record ;
+    record:uuid "<?=$row->uuid?>" ;
+    mmx:tenant <https://ams.memorix.io>;
+    record:removed false ;
+    record:creator [ a mmx:User ; user:uuid "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType <https://ams.memorix.io/record-type/image> ;
+    record:collection <<?=$collectionIri?>> ;
+    record:formValues <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description> ;
+    record:formValues <https://ams.memorix.io/record/image/<?=$row->uuid?>/copyright> ;
+    record:linkedMedia <<?=$media_iri?>> .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description> a mmx:FieldGroupValues ;
+  a mmx:FieldGroupValues;
+  formValues:key "content_description";
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/image_type> ;
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/title> ;
+  <?=$depicted_addres_tuple?>
+  <?=$depicted_building_tuple?>
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event> .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/image_type> a fieldValue:RdfResource ;
+  formValues:key "image_type" ;
+  fieldValue:isMultiValue false ;
+  fieldValue:resource <<?=$image_type_iri?>> .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/title> a fieldValue:RdfLiteral ;
+  formValues:key "title" ;
+  fieldValue:literal "<?=$row->dc_title?>" .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event> a mmx:FieldGroupValues ;
+  formValues:key "creation_event" ;
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creator> ;
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creation_date_text> ;
+  formValues:child <https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creation_date> .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creator> a fieldValue:RdfResource ;
+  formValues:key "creator" ;
+  fieldValue:isMultiValue true;
+  fieldValue:resource <<?=$creator_iri?>> .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creation_date_text> a fieldValue:RdfLiteral ;
+  formValues:key "creation_date_text" ;
+  fieldValue:literal "<?=$row->dc_date?>" .
+  
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/creation_event/creation_date> a fieldValue:PartialDateLiteral ;
+      formValues:key "creation_date" ;
+      fieldValue:dateYear "<?=$y?>"^^xsd:gYear ;
+      fieldValue:dateMonth "--<?=$m?>"^^xsd:gMonth ;
+      fieldValue:dateDay "---<?=$d?>"^^xsd:gDay .
+
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/copyright> a mmx:FieldGroupValues ;
+    formValues:key "copyright" ;
+    formValues:child [
+        a fieldValue:RdfResource ;
+        formValues:key "copyright_holder" ;
+        fieldValue:resource <<?=$copyright_holder_iri?>>
+    ], [
+        a fieldValue:RdfResource ;
+        formValues:key "condition_set" ;
+        fieldValue:resource <https://memorix.io/settings/conditionset/display_without_watermark>
+    ] .

@@ -1,0 +1,5 @@
+<https://ams.memorix.io/collections/vocabularies/buildings/<?=$hash?>> a skos:Concept;
+    dcterms:created "2020-09-22T08:00:00Z"^^xsd:dateTime;
+    skos:inScheme <https://ams.memorix.io/collections/vocabularies/buildings> ;
+    skos:prefLabel "<?=$sk_gebouw?>"@nl .
+

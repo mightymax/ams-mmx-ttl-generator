@@ -1,0 +1,8 @@
+<https://ams.memorix.io/collection/<?=$hash?>> a mmx:Collection ;
+    collection:tenant               <https://ams.memorix.io> ;
+    collection:uuid                 "<?=$uuid?>" ;
+    collection:removed              false ;
+    collection:name                 "<?=$row->dc_provenance?>"@nl ;
+    collection:website              <https://memorix.io> ;
+    collection:allowedRecordType    <https://ams.memorix.io/record-type/image> .
+

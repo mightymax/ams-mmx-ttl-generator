@@ -1,0 +1,5 @@
+#### DEPICTED BUIDLING ####
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/depicted_building> a  fieldValue:RdfResource ;
+  formValues:key "depicted_building" ;
+  fieldValue:isMultiValue true ;
+  fieldValue:resource <https://ams.memorix.io/collections/vocabularies/buildings/{$depicted_building_hash}> .

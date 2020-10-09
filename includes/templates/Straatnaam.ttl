@@ -1,0 +1,5 @@
+<https://ams.memorix.io/collections/vocabularies/streets/<?=$row->uuid?>> a skos:Concept;
+    dcterms:created             "<?=$created?>"^^xsd:dateTime;
+    skos:inScheme               <https://ams.memorix.io/collections/vocabularies/streets> ;
+    skos:prefLabel              "<?=$prefLabel?>"@nl .
+

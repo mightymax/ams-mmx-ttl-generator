@@ -1,0 +1,162 @@
+### Person records ###
+### NOT FROM DB!! ###
+
+<https://ams.memorix.io/record/person/nico_swaager>
+    a                           mmx:Record ;
+    record:uuid                 "e62ca458-a6f2-4eb4-a033-84b3cb8b3ebd" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    record:removed              false ;
+    record:creator              [ a                                 mmx:User ;
+                                  user:uuid                         "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType           <https://ams.memorix.io/record-type/person> ;
+    record:collection           <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:formValues           <https://ams.memorix.io/record/person/nico_swaager/values/identity/> ;
+    record:formValues           <https://ams.memorix.io/record/person/nico_swaager/values/life_events/> .
+
+<https://ams.memorix.io/record/person/nico_swaager/values/identity/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "identity" ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "first_name" ;
+                                  fieldValue:literal                "Nico"^^xsd:string ] ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "surname" ;
+                                  fieldValue:literal                "Swaager"^^xsd:string ] .
+
+<https://ams.memorix.io/record/person/nico_swaager/values/life_events/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "life_events" ;
+    formValues:child            <https://ams.memorix.io/record/person/nico_swaager/values/life_events/birth> ;
+    formValues:child            <https://ams.memorix.io/record/person/nico_swaager/values/life_events/death> .
+
+<https://ams.memorix.io/record/person/nico_swaager/values/life_events/birth>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "birth" ;
+    formValues:child            [ a                                 fieldValue:DateYear ;
+                                  formValues:key                    "birth_date" ;
+                                  fieldValue:dateYear               "1910"^^xsd:gYear ] .
+
+<https://ams.memorix.io/record/person/nico_swaager/values/life_events/death>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "death" ;
+    formValues:child            [ a                                 fieldValue:DateYear ;
+                                  formValues:key                    "death_date" ;
+                                  fieldValue:dateYear               "1983"^^xsd:gYear ] .
+
+<https://ams.memorix.io/record/person/glw_oppenheim>
+    a                           mmx:Record ;
+    record:uuid                 "2ebb1c31-dc69-4293-9f62-a08d9e52412e" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    record:removed              false ;
+    record:creator              [ a                                 mmx:User ;
+                                  user:uuid                         "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType           <https://ams.memorix.io/record-type/person> ;
+    record:collection           <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:formValues           <https://ams.memorix.io/record/person/glw_oppenheim/values/identity/> ;
+    record:formValues           <https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/> .
+
+<https://ams.memorix.io/record/person/glw_oppenheim/values/identity/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "identity" ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "first_name" ;
+                                  fieldValue:literal                "G.L.W."^^xsd:string ] ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "surname" ;
+                                  fieldValue:literal                "Oppenheim"^^xsd:string ] .
+
+<https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "life_events" ;
+    formValues:child            <https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/birth> ;
+    formValues:child            <https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/death> .
+
+<https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/birth>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "birth" ;
+    formValues:child            [ a                                 fieldValue:DateYear ;
+                                  formValues:key                    "birth_date" ;
+                                  fieldValue:dateYear               "1906"^^xsd:gYear ] .
+
+<https://ams.memorix.io/record/person/glw_oppenheim/values/life_events/death>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "death" ;
+    formValues:child            [ a                                 fieldValue:DateYear ;
+                                  formValues:key                    "death_date" ;
+                                  fieldValue:dateYear               "1984"^^xsd:gYear ] .
+
+<https://ams.memorix.io/record/person/frits_weeda>
+    a                           mmx:Record ;
+    record:uuid                 "0a3cb38b-6723-4e0b-905e-54650c890d85" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    record:removed              false ;
+    record:creator              [ a                                 mmx:User ;
+                                  user:uuid                         "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType           <https://ams.memorix.io/record-type/person> ;
+    record:collection           <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:formValues           <https://ams.memorix.io/record/person/frits_weeda/values/identity/> ;
+    record:formValues           <https://ams.memorix.io/record/person/frits_weeda/values/life_events/> .
+
+<https://ams.memorix.io/record/person/frits_weeda/values/identity/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "identity" ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "first_name" ;
+                                  fieldValue:literal                "Frits"^^xsd:string ] ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "surname" ;
+                                  fieldValue:literal                "Weeda"^^xsd:string ].
+
+<https://ams.memorix.io/record/person/frits_weeda/values/life_events/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "life_events" ;
+    formValues:child            <https://ams.memorix.io/record/person/frits_weeda/values/life_events/birth> .
+
+<https://ams.memorix.io/record/person/frits_weeda/values/life_events/birth>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "birth" ;
+    formValues:child            [ a                                 fieldValue:DateYear ;
+                                  formValues:key                    "birth_date" ;
+                                  fieldValue:dateYear               "1937"^^xsd:gYear ] .
+
+<https://ams.memorix.io/record/person/robert_klein>
+    a                           mmx:Record ;
+    record:uuid                 "7952d4ac-e6c2-43df-bad6-a5099a83ad1b" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    record:removed              false ;
+    record:creator              [ a                                 mmx:User ;
+                                  user:uuid                         "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType           <https://ams.memorix.io/record-type/person> ;
+    record:collection           <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:formValues           <https://ams.memorix.io/record/person/robert_klein/values/identity/> .
+
+<https://ams.memorix.io/record/person/robert_klein/values/identity/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "identity" ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "first_name" ;
+                                  fieldValue:literal                "Robert"^^xsd:string ] ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "surname" ;
+                                  fieldValue:literal                "Klein"^^xsd:string ] .
+
+<https://ams.memorix.io/record/person/pieter_oosterhuis>
+    a                           mmx:Record ;
+    record:uuid                 "3d3d7a77-e07b-4d75-b7a8-b86d36649e0a" ;
+    mmx:tenant                  <https://ams.memorix.io> ;
+    record:removed              false ;
+    record:creator              [ a                                 mmx:User ;
+                                  user:uuid                         "7fbf40bf-4627-402b-958c-c63a252bc121" ] ;
+    record:recordType           <https://ams.memorix.io/record-type/person> ;
+    record:collection           <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:formValues           <https://ams.memorix.io/record/person/pieter_oosterhuis/values/identity/> .
+
+<https://ams.memorix.io/record/person/pieter_oosterhuis/values/identity/>
+    a                           mmx:FieldGroupValues ;
+    formValues:key              "identity" ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "first_name" ;
+                                  fieldValue:literal                "Pieter"^^xsd:string ] ;
+    formValues:child            [ a                                 fieldValue:RdfLiteral ;
+                                  formValues:key                    "surname" ;
+                                  fieldValue:literal                "Oosterhuis"^^xsd:string ] .

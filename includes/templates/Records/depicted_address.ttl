@@ -1,0 +1,18 @@
+#### DEPICTED ADDRESS ####
+<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/depicted_address> a mmx:FieldGroupValues ;
+  formValues:key "depicted_address" ;
+  formValues:child [
+      a  fieldValue:RdfResource ;
+      fieldValue:isMultiValue false ;
+      fieldValue:resource <https://ams.memorix.io/collections/vocabularies/streets/{$street_uuid}>
+  ],
+  [
+      a fieldValue:RdfLiteral ;
+      formValues:key "depicted_house_number_from" ;
+      fieldValue:literal "{$geo->sk_geografische_naam_number_from}"^^xsd:string
+  ],
+  [
+      a fieldValue:RdfLiteral ;
+      formValues:key "depicted_house_number_to" ;
+      fieldValue:literal "{$geo->sk_geografische_naam_number_to}"^^xsd:string
+  ] .

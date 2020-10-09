@@ -1,0 +1,1398 @@
+{
+  "head" : {
+    "vars" : [ "id", "dutchLabel", "skopeNote", "latestModification" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111150"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Albanees"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:09"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385954"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Andorrees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De stijl en cultuur van Andorra, een oud vorstendom in de Pyreneeën tussen Frankrijk en Spanje."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385963"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Armeens"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van de moderne natie Armenië, een bergachtig land in de zuidelijke Kaukasus."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300379812"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Azorisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De cultuur en stijl van de Azoren, een groep vulkaaneilanden in de Noord-Atlantische Oceaan."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386535"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Balkanees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De stijlen en culturen van het schiereiland de Balkan in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300393258"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Baltisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Etniciteit, cultuur of stijlen van het gebied aan de bijna geheel door land omgeven Oostzee of Baltische Zee in Noord-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:32"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300379934"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Baskisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Verwijst naar de cultuur van de regio Baskenland in het westelijk deel van de Pyreneeën, aan weerszijden van de grens tussen het hedendaagse Frankrijk en Spanje, die wordt bewoond door een volk van onbekende oorsprong dat een niet-Arische taal spreekt."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111156"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Belgisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-08-30T10:27:49"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385977"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Bosnisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De cultuur of stijl van Bosnië in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385978"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Bosnisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De nationaliteit van Bosnië en Herzegovina, een natie in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385979"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Bretons"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van de historische of hedendaagse regio Bretagne in Frankrijk."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111159"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Brits"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-03-17T11:53:08"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111163"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Bulgaars"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-10-14T15:31:40"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386017"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Corsicaans"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van Corsica, een eiland in de Middellandse Zee ten westen van Italië en ten zuidoosten van het Franse vasteland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111192"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Duits"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-01-31T22:09:53"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387718"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Elzasser"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De stijlen en culturen die karakteristiek zijn voor de Elzas, een regio die nu in Frankrijk ligt maar voorheen in Duitsland lag."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387725"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Estlands"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van Estland, een land dat zich uitstrekt langs de zuidkust van de Finse Golf."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387752"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Faeröers"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van de Faeröer, een autonoom gebied van het koninkrijk Denemarken. Het is een eilandengroep die tussen Groot-Brittannië en IJsland ligt."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111188"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Frans"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-03-17T13:28:31"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300264816"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Grieks (modern)"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-08-01T08:23:44"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386126"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Groenlands"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit en cultuur van het eiland of het autonome gebied Groenland, aan de kust van de Noordelijke IJszee en de Atlantische Oceaan."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387726"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Herzegovinisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van Herzegovina, een land in Zuidoost-Europa dat nu een deel is van Bosnië en Herzegovina."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111195"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Hongaars"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-06-10T08:41:33"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300305500"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Iberisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De stijl en de cultuur van het Iberisch Schiereiland, zowel van de oude culturen als van de huidige landen Spanje en Portugal samen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2017-04-19T18:50:07"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111259"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Iers"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:52:33"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111198"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Italiaans"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:13"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387750"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Jerseyan"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van het eiland Jersey en de omringende eilanden voor de kust van Normandië, tegenwoordig een kroonbezit van het Verenigd Koninkrijk."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111228"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Joegoslavisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:18"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300380278"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Karpatisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Verwijst naar de stijlen en culturen die zijn ontwikkeld door de volkeren in de bergen die zich vanuit de hedendaagse Tsjechische Republiek uitstrekken naar de grens met Polen in het noordoosten en tot in Roemenië en de Oekraïne."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386376"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Kosovaars"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van de regio of natie Kosovo in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300263655"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Kroatisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:30:36"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386384"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Languedocs"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van de historische regio Languedoc in Zuid-Frankrijk."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386387"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Lets"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van Letland, in het Oostzeegebied in Noord-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386388"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Liechtensteins"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur en stijlen van het geheel door land omgeven Duits-sprekende Alpenland en ministaat in Midden-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386391"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Lijflands"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur en stijl van Lijfland, een historische regio aan de oostkust van de Oostzee in het hedendaagse Letland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386390"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Limburgs"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijlen van Limburg, een gebied in het hedendaagse Nederland en België."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300379451"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Litouws"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Verwijst naar de cultuur van de moderne natie Litouwen, of in het algemeen naar de culturen die deze staat aan de Oostzee hebben beheerst."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:26"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386392"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Lotharings"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Etniciteit, cultuur en stijlen van de regio Lotharingen in het hedendaagse Noordwest-Frankrijk."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386396"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Luxemburgs"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen en cultuur van Luxemburg in West-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386398"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Macedonisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "De cultuur en stijl die verbonden is aan de hedendaagse Republiek Macedonië in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386405"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Mallorcaans"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van het eiland Mallorca in de Middellandse Zee."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386406"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Maltees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen of cultuur van Malta, een Zuid-Europese eilandstaat en tegenwoordig een natie in de Middellandse Zee."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386521"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Marinees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijl van San Marino op het Italiaanse schiereiland, aan de noordoostkant van de Apennijnen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385999"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Midden-Europees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Culturen en stijlen van de regio tussen Oost- en West-Europa die op verschillende manieren wordt gedefinieerd maar in de meeste definities Duitsland, Hongarije, Liechtenstein, Oostenrijk, Polen, Slowakije, Slovenië, de Tsjechische Republiek en Zwitserland omvat."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386417"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Moldavisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijl en cultuur van Moldavië in Oost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386418"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Monegaskisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van Monaco, een klein onafhankelijk vorstendom aan de Middellandse Zeekust, verder omringd door Frankrijk."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386438"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Montenegrijns"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijl en cultuur van Montenegro in Zuidoost-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300020929"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Nederlanden"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:25"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386462"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Noord-Europees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Culturen en stijlen van het noordelijk deel van het Europese continent, in historische of moderne context. De term omvat in de moderne wereld volgens de definitie van de Verenigde Naties de landen Denemarken (met Faeröer), Estland, Finland (met Åland), Ierland, IJsland, Letland, Litouwen, Noorwegen, (met Svalbard en Jan Mayen), het Verenigd Koninkrijk (met Guernsey, het eiland Man en Jersey) en Zweden."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386467"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Noord-Iers"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit en cultuur van Noord-Ierland, het deel van het Verenigd Koninkrijk dat in het noordoosten van het eiland Ierland ligt."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300380343"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Oekraïens"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Verwijst naar de cultuur van de moderne natie Oekraïne, of naar de culturen die de belangrijkste gebieden van het historische Oekraïne in Oost-Europa ten noorden van de Zwarte Zee hebben beheerst."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386466"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Oost-Europees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur en stijlen van het oostelijke deel van Europa. De term omvat in de moderne wereld volgens de definitie van de Verenigde Naties de landen Bulgarije, Hongarije, Moldavië, Oekraïne, Polen, Roemenië, Rusland, Slowakije, de Tsjechische Republiek en Wit-Rusland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111153"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Oostenrijks"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:52:26"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300385965"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Oostenrijks-Hongaars"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Behorend tot de nationaliteit of cultuur van Oostenrijk-Hongarije en het Habsburgse Rijk, dat hoofdzakelijk bestond tussen 1867 en 1918."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111204"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Pools"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-08-01T08:19:37"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111207"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Portugees"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:15"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386496"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Pruisisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen en cultuur van het Duitse koninkrijk en de historische staat Pruisen in Noord-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386511"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Rijns"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Culturen en stijlen van het gebied rondom de Europese rivier de Rijn."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111210"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Roemeens"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:15"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111276"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Russisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-10-28T14:28:34"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300393223"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Sardijns"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Stijlen en culturen op het eiland Sardinië en in gebieden in het domein daarvan; zowel oude als moderne culturen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:31"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300378946"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Savoys"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Stijlen en culturen die ontstonden in het zuidoosten van Frankrijk en het noordwesten van Italië. Vanaf de 11e eeuw regeerden hier de graven van Savoye namens het koninkrijk Arelat, maar uiteindelijk werd het onafhankelijk en werd het grondgebied sterk uitgebreid. "
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-05-22T08:46:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111169"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Scandinavisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-03-17T13:56:56"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300263642"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Servisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:49:51"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386523"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Servisch-Montenegrijns"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit en cultuur van de historische entiteit Servië en Montenegro op de Balkan."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386530"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Silezisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen en cultuur van Silezië, een historische regio in Midden-Europa die grotendeels in het huidige Polen lag, met kleinere delen in de Tsjechische Republiek en Duitsland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300263654"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Sloveens"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:49:52"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386533"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Slowaaks"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijlen van Slowakije in Midden-Europa."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386872"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Sovjet"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit of cultuur van de voormalige natie Sovjet-Unie, ofwel de Unie van Socialistische Sovjetrepublieken (USSR). Gebruik 'Russisch' voor de nationaliteit van Rusland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111215"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Spaans"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-03-17T13:57:58"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386558"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Tiroler"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen en cultuur van Tirol in Oostenrijk, dat vroeger een kroonland van Oostenrijk-Hongarije was, en dat de huidige Oostenrijkse provincie Tirol en delen van Noord-Italië omvat."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386551"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Transsylvanisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijlen of cultuur van Transsylvanië in het huidige Roemenië."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111166"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Tsjechisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-03-29T09:29:11"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111184"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Vlaams"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-04-05T13:04:20"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386578"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Walachijs"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, cultuur of stijlen van de historische en geografische regio Walachije in Roemenië."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386465"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "West-Europees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Culturen en stijlen van de westelijke naties van Europa. Omvat in de moderne wereld volgens de definitie van de Verenigde Naties de landen België, Duitsland, Frankrijk, Liechtenstein, Luxemburg, Monaco, Nederland, Oostenrijk, Zweden en Zwitserland."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300264472"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Wit-Russisch"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-03-03T13:26:14"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386464"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Zuid-Europees"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Culturen en stijlen van het zuidelijk deel van het Europese continent. De term omvat in de moderne wereld volgens de definitie van de Verenigde Naties de landen Albanië, Andorra, Bosnië en Herzegovina, Gibraltar, Griekenland, Italië, Kroatië, Republiek Macedonië, Malta, Montenegro, Portugal, San Marino, Servië, Slovenië, Spanje en Vaticaanstad."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386537"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Zuid-Nederlands"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Cultuur en stijlen van het gebied Vlaanderen, zonder de noordelijke delen van het huidige Nederland. De term wordt meestal alleen gebruikt in de context van cultuur en stijlen vóór de 15e eeuw."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300111221"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "Zwitsers"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:52:32"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387717"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "alpien"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Stijlen en culturen die karakteristiek zijn voor de Alpen, een groot Europees gebergte."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300395460"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "oud-Pruisisch"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit, stijl en cultuur van de mensen die tot de 17e eeuw aan de kusten van de Oostzee ten oosten van de Wisła of Vistula woonden, linguïstisch gerelateerd aan de Litouwers en de Letten."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:32"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387495"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "van de Pauselijke Staat"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Nationaliteit en cultuur van gebieden waarover de paus de macht had. De term verwijst meestal naar deze gebieden in de periode tussen 756 en 1870 in Midden-Italië, maar omvat formeel gezien meer landen en een langere historische periode."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:30"
+      }
+    } ]
+  }
+}

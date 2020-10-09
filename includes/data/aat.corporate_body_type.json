@@ -1,0 +1,456 @@
+{
+  "head" : {
+    "vars" : [ "id", "dutchLabel", "skopeNote", "latestModification" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300000768"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "administratieve eenheden"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:24"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025995"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "bedrijfstakken"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Groepen productieve of winstgevende bedrijven of organisaties die een gelijksoortige technologische structuur hebben en die gelijksoortige goederen of diensten aanbieden."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-01-03T16:35:22"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300252609"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "bestuurslichamen"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-12-30T19:03:20"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386367"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "bureaus"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Afdelingen of administratieve eenheden, vaak van de overheid, die verantwoordelijk zijn voor bepaalde activiteiten of taken, en die een hoofd en ervaren medewerkers hebben."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025980"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "commissies"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Groepen mensen die zijn afgevaardigd om bepaalde kwesties of zaken te overwegen, te onderzoeken of om maatregelen te treffen en gewoonlijk om verslag uit te brengen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2011-01-07T11:55:30"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386361"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "corporaties"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Georganiseerde, welomschreven groepen mensen die samenwerken op een bepaalde plek in een bepaalde tijd, inclusief wettelijk omschreven eenheden en mensen met een lossere band, bijvoorbeeld kunstenaarswerkplaatsen. Gebruik 'naamloze vennootschappen' om specifiek te verwijzen naar wettelijk verenigde groepen die als rechtspersoon gelden en een identiteit en rechten hebben die afwijken van de rechten van de personen die de groep vormen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300150456"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "diensten"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-28T09:35:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300379421"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "fabrieken"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Bedrijven, instellingen of andere administratieve organisaties die het proces van goederen maken regelen, met name dergelijke instellingen na de Industriële Revolutie van het midden van de 19e eeuw. Vaak maken ze gebruik van mechanische productiemethoden en werken ze niet alleen met de hand. Moderne fabrieken organiseren hun activiteiten zodanig dat productie op grote schaal mogelijk is, meestal met machines die door elektriciteit worden aangedreven. Gebruik 'manufacturen' voor organisaties die met de hand dingen maakten."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:26"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386362"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "groepen"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Mensen die georganiseerd en verenigd zijn met het oog op wederzijdse of gemeenschappelijke activiteiten of belangen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025966"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "handelsondernemingen"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-07-03T15:13:03"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025949"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "instanties"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:25"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300026004"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "instellingen"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Formeel gestructureerde organisaties gewijd aan de bevordering van een bepaalde zaak of project."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2011-03-08T11:17:41"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300026002"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "instituten"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Organisaties die werken ter bevordering van een bepaalde achtenswaardige of wetenschappelijke zaak of het welzijn van een bepaalde groep, of die technisch of professioneel zijn gespecialiseerd in een vak of studie."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-04-28T15:17:37"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300264603"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "manufacturen"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-02-26T09:34:40"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300379940"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "ngo's"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Verwijst naar nationale en internationale vrijwillige groepen en organisaties, die niet verbonden zijn aan een overheid en meestal niet op winstbasis werken. Voorbeelden zijn de VN (waarvan ook de term afkomstig is) en liefdadigheidsinstellingen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:27"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300253162"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "non-profit organisaties"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-09-21T11:20:17"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300008609"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "nutsbedrijven"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:38:13"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300263535"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "organisatorische eenheden"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2014-01-08T12:26:07"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386741"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "overheden"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Instanties die een continue autoriteit uitoefenen namens een natie, staat, gemeenschap of andere administratieve eenheid met betrekking tot de acties van onderdanen of burgers, door middel van wet- of regelgeving."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:29"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386363"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "overheidsorganen"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Bureaus, afdelingen of andere instanties of vertegenwoordigers van een overheid, die officiële bevoegdheid hebben om namens de overheid op te treden, bijvoorbeeld de wettelijke bevoegdheid om regelgeving af te dwingen."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300386364"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "programs"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Organisaties, bureaus, afdelingen of andere eenheden die de implementatie van meerdere samenhangende projecten of activiteiten coördineren, besturen en controleren."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2020-07-24T11:17:28"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025956"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "raden (organisaties)"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Te gebruiken voor groepen personen, die officieel zijn benoemd of gekozen om een bepaalde activiteit te coördineren of te leiden, vaak binnen een overheids- of particuliere onderneming, instelling of andere organisatie."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2013-08-08T08:38:03"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300250844"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "religieuze organisaties"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-12-13T08:38:51"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025985"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "stichtingen (organisaties)"
+      },
+      "skopeNote" : {
+        "type" : "literal",
+        "value" : "Organisaties of instellingen die zijn opgericht met behulp van schenkingen of subsidies of met andere voorzieningen om te kunnen blijven voortbestaan."
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-06-16T14:24:35"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300137540"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "strijdkrachten"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2019-12-13T08:09:47"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300157460"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "studio's (organisaties)"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:56:52"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300025950"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "verenigingen"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2016-02-27T08:11:03"
+      }
+    }, {
+      "id" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300026026"
+      },
+      "dutchLabel" : {
+        "type" : "literal",
+        "value" : "werkplaatsen (onder naam van de meester)"
+      },
+      "latestModification" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "2015-01-16T09:08:41"
+      }
+    } ]
+  }
+}
