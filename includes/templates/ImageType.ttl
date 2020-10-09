@@ -1,5 +1,5 @@
 <https://ams.memorix.io/collections/vocabularies/image_type/<?=$row->sk_documenttype?>> a skos:Concept;
-    dcterms:created             "{$created}"^^xsd:dateTime;
+    dcterms:created             "<?=$created?>"^^xsd:dateTime;
     skos:inScheme               <https://ams.memorix.io/collections/vocabularies/image_type> ;
     skos:prefLabel              "<?=$row->sk_documenttype?>"@nl;
     skos:scopeNote              "<?=$scopeNote?>"@nl;

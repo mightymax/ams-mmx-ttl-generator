@@ -21,7 +21,7 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     $iri = 'https://ams.memorix.io/record/image/' . $row->uuid;
 
     if (!$row->sk_documenttype) $row->sk_documenttype = 'foto';
-    if (!$row->sk_datering) $row->sk_datering = '1970-09-02';
+    if (!$row->sk_datering) $row->sk_datering = '19700209-19701209';
     
     $row->dc_title = addcslashes ($row->dc_title, "\"");
     $cb_name = addcslashes ($row->sr_rechthebbende, "\"");
