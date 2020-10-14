@@ -7,9 +7,6 @@ class MemorixDB extends PDO
     protected $limit = 10;
     protected $offset = 0;
     
-    // Cache:
-    protected $auteursrechthebbenden = [], $straatnamen = [];
-    
     public function __construct()
     {
         list($host, $port, $dbname, $user, $password) = require __DIR__ . '/../config.php';
@@ -46,29 +43,6 @@ class MemorixDB extends PDO
             }
         }
         return $this;
-    }
-    
-    public function addAuteursrechthebbende($val)
-    {
-        $this->auteursrechthebbenden[] = $val;
-        return $this;
-    }
-    
-    public function addStraatnaam($key, $val)
-    {
-        $this->straatnamen[$key] = $val;
-        return $this;
-    }
-    
-    public function getKeyStraatnaam($val)
-    {
-        if (count($this->straatnamen) == 0) {
-            $sth = $this->getStraatnamen();
-            while ($row = $sth->fetch(PDO::FETCH_OBJ)) {
-                $this->addStraatnaam($row->uuid, $row->dc_title);
-            }
-        }
-        return array_search($val, $this->straatnamen);
     }
     
     public function GUID()
@@ -116,13 +90,13 @@ class MemorixDB extends PDO
     public function getStraatnamen()
     {
         
+        $sql = 'SELECT uuid, modified_time, dc_title from ams.col_invoerlijst_value where invoerlijst=\'b2c1163a-27dc-0ac8-6a61-d7a3581de2de\'';
         if ($this->limit > 0 || $this->offset) {
-            $sql = 'SELECT uuid, modified_time, sk_geografische_naam AS dc_title FROM ams."col_entiteit_a7482190-70b2-11e4-aafc-df43ca933b2a"';
+            $sql2 = "\n".'SELECT DISTINCT sk_geografische_naam AS dc_title FROM ams."col_entiteit_a7482190-70b2-11e4-aafc-df43ca933b2a"';
             $subQuery = $this->getRecords(false, true);
             $subQuery = str_replace(' * ', ' uuid ', $subQuery);
-            $sql .= "\nWHERE entity IN (\n\t{$subQuery}\n)";
-        } else {
-            $sql = 'SELECT uuid, modified_time, dc_title from ams.col_invoerlijst_value where invoerlijst=\'b2c1163a-27dc-0ac8-6a61-d7a3581de2de\'';
+            $sql2 .= "\nWHERE entity IN (\n\t{$subQuery})\n";
+            $sql = "{$sql}\n AND dc_title IN (\n{$sql2})";
         }
         return $this->getStatement($sql);
     }
@@ -165,18 +139,6 @@ class MemorixDB extends PDO
         return $sth;
     }
     
-    public function getRandomAuteursrechthebbende()
-    {
-        if (count($this->auteursrechthebbenden) == 0) {
-            $sth = $this->getAuteursrechthebbenden();
-            while ($row = $sth->fetch(PDO::FETCH_OBJ)) {
-                if (!$row->sr_rechthebbende) continue;
-                $this->addAuteursrechthebbende($row->sr_rechthebbende);
-            }
-        }
-        return $this->auteursrechthebbenden[rand(0, count($this->auteursrechthebbenden)-1)];
-    }
-    
     public static function getRandomPersonIri()
     {
         global $baseURL;
@@ -210,6 +172,33 @@ class MemorixDB extends PDO
         ];
         return $iris[rand(0, count($iris)-1)];
         
+    }
+    
+    public static function slugify($text)
+    {
+      // replace non letter or digits by -
+      $text = preg_replace('~[^\pL\d]+~u', '-', $text);
+
+      // transliterate
+      $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+
+      // remove unwanted characters
+      $text = preg_replace('~[^-\w]+~', '', $text);
+
+      // trim
+      $text = trim($text, '-');
+
+      // remove duplicate -
+      $text = preg_replace('~-+~', '-', $text);
+
+      // lowercase
+      $text = strtolower($text);
+
+      if (empty($text)) {
+        return 'n-a';
+      }
+
+      return $text;
     }
     
     public static function aat_documenttype($type)

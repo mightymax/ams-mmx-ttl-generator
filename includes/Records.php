@@ -26,30 +26,23 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     $row->dc_title = addcslashes ($row->dc_title, "\"");
     $cb_name = addcslashes ($row->sr_rechthebbende, "\"");
     
-    $copyright_holder_iri = "{$baseURL}/record/corporate_body/{$hash}";
+    $copyright_holder_iri = "{$baseURL}/record/corporate_body/" . MemorixDB::slugify($row->sr_rechthebbende);
     $creator_iri = MemorixDB::getRandomPersonIri();
     $media_iri = MemorixDB::getRandomImageIri();
     $image_type_iri = "{$baseURL}/collections/vocabularies/image_type/{$row->sk_documenttype}";
-    $collectionIri = "{$baseURL}/collection/" . md5($row->dc_provenance);
+    $collectionIri = "{$baseURL}/collection/" . MemorixDB::slugify($row->dc_provenance);
     
     if ($row->sk_gebouw) {
-        $depicted_building_hash = md5($row->sk_gebouw);
+        $depicted_building_hash =  MemorixDB::slugify($row->sk_gebouw);
         $depicted_building_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_building> ;";
     } else {
         $depicted_building_tuple = '';
     }
 
-    if ($row->sr_rechthebbende) {
-        $hash = md5($row->sr_rechthebbende);
-    } else {
-        //fetch a random one:
-        $hash = md5($dbh->getRandomAuteursrechthebbende());
-    }
-
     $geo = $dbh->getRecordGeo($row->uuid);
     if ($geo) {
         $sk_geografische_naam = $geo->sk_geografische_naam;
-        $street_uuid = $dbh->getKeyStraatnaam($sk_geografische_naam);
+        $sk_geografische_naam_hash = MemorixDB::slugify($geo->sk_geografische_naam);
         $depicted_address_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_address> ;";
     } else {
         $depicted_address_tuple = '';

@@ -4,7 +4,7 @@
   formValues:child [
       a  fieldValue:RdfResource ;
       fieldValue:isMultiValue false ;
-      fieldValue:resource <<?=$baseURL?>/collections/vocabularies/streets/<?=$street_uuid?>>
+      fieldValue:resource <<?=$baseURL?>/collections/vocabularies/streets/<?=$sk_geografische_naam_hash?>>
   ],
   [
       a fieldValue:RdfLiteral ;

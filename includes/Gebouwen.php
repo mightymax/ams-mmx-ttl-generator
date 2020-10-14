@@ -10,7 +10,7 @@ while ($row = $gebouwen->fetch(PDO::FETCH_OBJ)) {
         $val = trim($val, '"');
     });
     foreach ($sk_gebouwen as $sk_gebouw) {
-        $hash = md5($sk_gebouw);
+        $hash = MemorixDB::slugify($sk_gebouw);
         $created = date('Y-m-md\TH:i:m\Z');
         $sk_gebouw = addcslashes ($sk_gebouw, "\"");
         include __DIR__ . '/templates/Gebouw.ttl';

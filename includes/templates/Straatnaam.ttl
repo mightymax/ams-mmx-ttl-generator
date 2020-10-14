@@ -1,4 +1,4 @@
-<<?=$baseURL?>/collections/vocabularies/streets/<?=$row->uuid?>> a skos:Concept;
+<<?=$baseURL?>/collections/vocabularies/streets/<?=$hash?>> a skos:Concept;
     dcterms:created             "<?=$created?>"^^xsd:dateTime;
     skos:inScheme               <<?=$baseURL?>/collections/vocabularies/streets> ;
     skos:prefLabel              "<?=$prefLabel?>"@nl .

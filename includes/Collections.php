@@ -7,7 +7,7 @@ $collections = $dbh->getCollections();
 
 while ($row = $collections->fetch(PDO::FETCH_OBJ)) {
     if (!$row->dc_provenance) continue;
-    $hash = md5($row->dc_provenance);
+    $hash = MemorixDB::slugify($row->dc_provenance);
     $uuid = $dbh->GUID();
     
     include __DIR__ . '/templates/Collection.ttl';
