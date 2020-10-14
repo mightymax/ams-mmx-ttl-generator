@@ -3,7 +3,7 @@
 <<?=$baseURL?>/settings/conditionset/display_without_watermark>
     a mmx:ConditionSet ;
     conditionSet:removed                false ;
-    mmx:tenant                          <?=$baseURL?>> ;
+    mmx:tenant                          <<?=$baseURL?>> ;
     conditionSet:id                     "3ef65c52-0d59-11eb-bd8d-9fe932ceb45a" ;
     conditionSet:title                  "Display Without Watermark"@nl ;
     conditionSet:description            "I came from RDF import"@nl ;

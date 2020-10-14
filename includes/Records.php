@@ -50,9 +50,9 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     if ($geo) {
         $sk_geografische_naam = $geo->sk_geografische_naam;
         $street_uuid = $dbh->getKeyStraatnaam($sk_geografische_naam);
-        $depicted_addres_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_address> ;";
+        $depicted_address_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_address> ;";
     } else {
-        $depicted_addres_tuple = '';
+        $depicted_address_tuple = '';
     }
     
 
@@ -63,8 +63,8 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
 
     include __DIR__ .'/templates/Record.ttl';
 
-    if ($depicted_addres_tuple) {
-        include __DIR__ .'/templates/Records/depicted_addres.ttl';
+    if ($depicted_address_tuple) {
+        include __DIR__ .'/templates/Records/depicted_address.ttl';
     }
     if ($depicted_building_tuple) {
         include __DIR__ .'/templates/Records/depicted_building.ttl';

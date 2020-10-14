@@ -4,15 +4,15 @@
   formValues:child [
       a  fieldValue:RdfResource ;
       fieldValue:isMultiValue false ;
-      fieldValue:resource <<?=$baseURL?>/collections/vocabularies/streets/{$street_uuid}>
+      fieldValue:resource <<?=$baseURL?>/collections/vocabularies/streets/<?=$street_uuid?>>
   ],
   [
       a fieldValue:RdfLiteral ;
       formValues:key "depicted_house_number_from" ;
-      fieldValue:literal "{$geo->sk_geografische_naam_number_from}"^^xsd:string
+      fieldValue:literal "<?=$geo->sk_geografische_naam_number_from?>"^^xsd:string
   ],
   [
       a fieldValue:RdfLiteral ;
       formValues:key "depicted_house_number_to" ;
-      fieldValue:literal "{$geo->sk_geografische_naam_number_to}"^^xsd:string
+      fieldValue:literal "<?=$geo->sk_geografische_naam_number_to?>"^^xsd:string
   ] .

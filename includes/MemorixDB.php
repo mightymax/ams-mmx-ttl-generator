@@ -71,13 +71,6 @@ class MemorixDB extends PDO
         return array_search($val, $this->straatnamen);
     }
     
-    public function getAuteursrechthebbenden()
-    {
-        $sth = $this->prepare('SELECT DISTINCT sr_rechthebbende FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"');
-        $sth->execute();
-        return $sth;
-    }
-    
     public function GUID()
     {
         if (function_exists('com_create_guid') === true)
@@ -88,25 +81,50 @@ class MemorixDB extends PDO
     }
     
     // ### Queries ###:
+    
+    protected function distinctLimitStatement($fieldname)
+    {
+        $sql = 'SELECT DISTINCT '.$fieldname.' FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"';
+        if ($this->limit > 0 || $this->offset) {
+            $subQuery = $this->getRecords(false, true);
+            $subQuery = str_replace(' * ', ' uuid ', $subQuery);
+            $sql .= "\nWHERE uuid IN (\n\t{$subQuery}\n)";
+        }
+        return $this->getStatement($sql);
+    }
 
+    public function getAuteursrechthebbenden()
+    {
+        return $this->distinctLimitStatement('sr_rechthebbende');
+    }
+    
     public function getCollections()
     {
-        return $this->getStatement('SELECT DISTINCT dc_provenance FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"');
+        return $this->distinctLimitStatement('dc_provenance');
     }
     
     public function getGebouwen()
     {
-        return $this->getStatement('SELECT DISTINCT sk_gebouw FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"');
+        return $this->distinctLimitStatement('sk_gebouw');
     }
     
     public function getImageTypes()
     {
-        return $this->getStatement('SELECT DISTINCT sk_documenttype FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"');
+        return $this->distinctLimitStatement('sk_documenttype');
     }
     
     public function getStraatnamen()
     {
-        return $this->getStatement('SELECT uuid, modified_time, dc_title from ams.col_invoerlijst_value where invoerlijst=\'b2c1163a-27dc-0ac8-6a61-d7a3581de2de\'');
+        
+        if ($this->limit > 0 || $this->offset) {
+            $sql = 'SELECT uuid, modified_time, sk_geografische_naam AS dc_title FROM ams."col_entiteit_a7482190-70b2-11e4-aafc-df43ca933b2a"';
+            $subQuery = $this->getRecords(false, true);
+            $subQuery = str_replace(' * ', ' uuid ', $subQuery);
+            $sql .= "\nWHERE entity IN (\n\t{$subQuery}\n)";
+        } else {
+            $sql = 'SELECT uuid, modified_time, dc_title from ams.col_invoerlijst_value where invoerlijst=\'b2c1163a-27dc-0ac8-6a61-d7a3581de2de\'';
+        }
+        return $this->getStatement($sql);
     }
     
     public function countRecords() {
@@ -114,7 +132,7 @@ class MemorixDB extends PDO
        return $count > $this->limit ? $this->limit : $count;
     }
     
-    public function getRecords($count = false)
+    public function getRecords($count = false, $asSql = false)
     {
         $sql = 'SELECT ' . ($count?'COUNT(*) AS c':'*') . ' FROM ams."col_entiteit_09c7ff50-70a6-11e4-a16c-d31c81183655"';
         $hasOrdering = false;
@@ -128,14 +146,14 @@ class MemorixDB extends PDO
             if (!$hasOrdering) $sql .= " ORDER BY";
             $sql .= " OFFSET {$this->offset}";
         }
-        return $this->getStatement($sql);
+        return $asSql ? $sql : $this->getStatement($sql);
     }
     
     public function getRecordGeo($record_uuid)
     {
         $sql = "
         SELECT uuid, sk_geografische_naam, sk_geografische_naam_number_from, sk_geografische_naam_number_to
-        FROM ams.\"col_entiteit_a7482190-70b2-11e4-aafc-df43ca933b2a\" WHERE entity = '{$record_uuid} LIMIT 1";
+        FROM ams.\"col_entiteit_a7482190-70b2-11e4-aafc-df43ca933b2a\" WHERE entity = '{$record_uuid}' LIMIT 1";
         $sth = $this->getStatement($sql);
         return $sth->fetch(PDO::FETCH_OBJ);
     }

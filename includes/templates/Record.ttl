@@ -8,8 +8,8 @@
     record:recordType <<?=$baseURL?>/record-type/image> ;
     record:collection <<?=$collectionIri?>> ;
     record:formValues <<?=$baseURL?>/record/image/<?=$row->uuid?>/content_description> ;
-    record:formValues <<?=$baseURL?>/record/image/<?=$row->uuid?>/copyright> ;
-    record:linkedMedia <<?=$media_iri?>> .
+    record:formValues <<?=$baseURL?>/record/image/<?=$row->uuid?>/copyright> .
+    # record:linkedMedia <<?=$media_iri?>> .
 
 <<?=$baseURL?>/record/image/<?=$row->uuid?>/content_description> a mmx:FieldGroupValues ;
   a mmx:FieldGroupValues;
