@@ -18,7 +18,7 @@ $cLength = strlen($count);
 while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     $c ++;
     $counter = sprintf("[%0{$cLength}d/%0{$cLength}d]", $c, $count);
-    $iri = 'https://ams.memorix.io/record/image/' . $row->uuid;
+    $iri = $baseURL . '/record/image/' . $row->uuid;
 
     if (!$row->sk_documenttype) $row->sk_documenttype = 'foto';
     if (!$row->sk_datering) $row->sk_datering = '19700209-19701209';
@@ -26,15 +26,15 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     $row->dc_title = addcslashes ($row->dc_title, "\"");
     $cb_name = addcslashes ($row->sr_rechthebbende, "\"");
     
-    $copyright_holder_iri = "https://ams.memorix.io/record/corporate_body/{$hash}";
+    $copyright_holder_iri = "{$baseURL}/record/corporate_body/{$hash}";
     $creator_iri = MemorixDB::getRandomPersonIri();
     $media_iri = MemorixDB::getRandomImageIri();
-    $image_type_iri = "https://ams.memorix.io/collections/vocabularies/image_type/{$row->sk_documenttype}";
-    $collectionIri = "https://ams.memorix.io/collection/" . md5($row->dc_provenance);
+    $image_type_iri = "{$baseURL}/collections/vocabularies/image_type/{$row->sk_documenttype}";
+    $collectionIri = "{$baseURL}/collection/" . md5($row->dc_provenance);
     
     if ($row->sk_gebouw) {
         $depicted_building_hash = md5($row->sk_gebouw);
-        $depicted_building_tuple = "formValues:child <https://ams.memorix.io/record/image/{$row->uuid}/content_description/depicted_building> ;";
+        $depicted_building_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_building> ;";
     } else {
         $depicted_building_tuple = '';
     }
@@ -50,7 +50,7 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     if ($geo) {
         $sk_geografische_naam = $geo->sk_geografische_naam;
         $street_uuid = $dbh->getKeyStraatnaam($sk_geografische_naam);
-        $depicted_addres_tuple = "formValues:child <https://ams.memorix.io/record/image/{$row->uuid}/content_description/depicted_address> ;";
+        $depicted_addres_tuple = "formValues:child <{$baseURL}/record/image/{$row->uuid}/content_description/depicted_address> ;";
     } else {
         $depicted_addres_tuple = '';
     }
@@ -64,9 +64,9 @@ while ($row = $records->fetch(PDO::FETCH_OBJ)) {
     include __DIR__ .'/templates/Record.ttl';
 
     if ($depicted_addres_tuple) {
-        include __DIR__ .'/templates/Record/depicted_addres.ttl';
+        include __DIR__ .'/templates/Records/depicted_addres.ttl';
     }
     if ($depicted_building_tuple) {
-        include __DIR__ .'/templates/Record/depicted_building.ttl';
+        include __DIR__ .'/templates/Records/depicted_building.ttl';
     }
 }

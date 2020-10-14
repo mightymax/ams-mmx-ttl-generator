@@ -1,18 +1,18 @@
 ### Record Types ###
-<https://ams.memorix.io/record-type/image>
+<<?=$baseURL?>/record-type/image>
     a                           mmx:RecordType ;
-    rt:tenant                   <https://ams.memorix.io> ;
+    rt:tenant                   <<?=$baseURL?>> ;
     rt:id                       [ a                                 mmx:RecordTypeId ;
-                                  mmx:RecordTypeId\#uuid            "9b39a6c0-0a3c-4722-bf3a-55aa4452063d" ] ; #Recordtype ID of the Foto recordtype op ams.memorix-test.nl
+                                  mmx:RecordTypeId\#uuid            "85aa78fe-0d59-11eb-aa10-3bc5fbd6bf7c" ] ; #Recordtype ID of the Foto recordtype op ams.memorix-test.nl
     rt:removed                  false ;
     rt:category                 mmx:RecordTypeCategory\/collection ;
     rt:name                     "Afbeelding"@nl ;
     rt:description              "RDF Implementatie van Afbeelding Recordtype"@nl ;
     rt:configuration            [ a                                 mmx:FormConfiguration ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/image/form/content_description/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/image/form/copyright/> ] .
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/image/form/content_description/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/image/form/copyright/> ] .
 
-<https://ams.memorix.io/record-type/image/form/content_description/>
+<<?=$baseURL?>/record-type/image/form/content_description/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#key           "content_description" ;
     mmx:TreeNode\#position      1.0 ;
@@ -25,7 +25,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/image_type>] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/image_type>] ] ;
     mmx:FieldGroup\#child       [ a                                   mmx:Field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "title" ;
@@ -50,7 +50,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         true ;
-                                                                      mmx:RdfResource\#recordType           <https://ams.memorix.io/record-type/person> ] ] ;
+                                                                      mmx:RdfResource\#recordType           <<?=$baseURL?>/record-type/person> ] ] ;
 
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            6.0 ;
@@ -59,7 +59,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         true ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/buildings> ] ];
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/buildings> ] ];
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            7.0 ;
                                   mmx:TreeNode\#key                 "depicted_public_space" ;
@@ -67,13 +67,13 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         true ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/public_spaces> ] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/public_spaces> ] ] ;
 
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/image/form/content_description/depicted_address/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/image/form/content_description/depicted_address/> ;
 
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/image/form/content_description/creation_event/> .
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/image/form/content_description/creation_event/> .
 
-<https://ams.memorix.io/record-type/image/form/content_description/depicted_address/>
+<<?=$baseURL?>/record-type/image/form/content_description/depicted_address/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#position      8.0 ;
     mmx:TreeNode\#key           "depicted_address" ;
@@ -88,7 +88,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/streets> ] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/streets> ] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "depicted_house_number_from" ;
@@ -104,7 +104,7 @@
                                   mmx:Field\#handler                [ a                                     mmx:RdfLiteral ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/image/form/content_description/creation_event/>
+<<?=$baseURL?>/record-type/image/form/content_description/creation_event/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#position      9.0 ;
     mmx:TreeNode\#key           "creation_event" ;
@@ -120,8 +120,8 @@
                                   mmx:Field\#inSummaryAt            1 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         true ;
-                                                                      mmx:RdfResource\#recordType           <https://ams.memorix.io/record-type/corporate_body> ;
-                                                                      mmx:RdfResource\#recordType           <https://ams.memorix.io/record-type/person> ] ] ;
+                                                                      mmx:RdfResource\#recordType           <<?=$baseURL?>/record-type/corporate_body> ;
+                                                                      mmx:RdfResource\#recordType           <<?=$baseURL?>/record-type/person> ] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "creation_date_text" ;
@@ -137,7 +137,7 @@
                                   mmx:Field\#inSummaryAt            2 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] .
 
-<https://ams.memorix.io/record-type/image/form/copyright/>
+<<?=$baseURL?>/record-type/image/form/copyright/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#position      11.0 ;
     mmx:TreeNode\#key           "copyright" ;
@@ -152,7 +152,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#conditionSet         <https://ams.memorix.io> ] ] ;
+                                                                      mmx:RdfResource\#conditionSet         <<?=$baseURL?>> ] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "copyright_holder" ;
@@ -160,8 +160,8 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#recordType           <https://ams.memorix.io/record-type/person> ;
-                                                                      mmx:RdfResource\#recordType           <https://ams.memorix.io/record-type/corporate_body> ] ] ;
+                                                                      mmx:RdfResource\#recordType           <<?=$baseURL?>/record-type/person> ;
+                                                                      mmx:RdfResource\#recordType           <<?=$baseURL?>/record-type/corporate_body> ] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "credit_statement" ;
@@ -182,23 +182,23 @@
 
 ### Person record type ###
 
-<https://ams.memorix.io/record-type/person>
+<<?=$baseURL?>/record-type/person>
     a                           mmx:RecordType ;
-    rt:tenant                   <https://ams.memorix.io> ;
+    rt:tenant                   <<?=$baseURL?>> ;
     rt:id                       [ a                                 mmx:RecordTypeId ;
-                                  mmx:RecordTypeId\#uuid            "c87f11aa-3cd7-3ace-9c22-87b96bac519e" ] ; #Recordtype ID van het Person recordtype op ams.memorix-test.nl
+                                  mmx:RecordTypeId\#uuid            "85abafda-0d59-11eb-b178-dfa518fd890f" ] ; #Recordtype ID van het Person recordtype op ams.memorix-test.nl
     rt:removed                  false ;
     rt:category                 mmx:RecordTypeCategory\/collection ;
     rt:name                     "Persoon"@nl ;
     rt:description              "RDF Implementatie van Person Recordtype"@nl ;
     rt:configuration            [ a                                 mmx:FormConfiguration ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/person/form/identity/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/person/form/description/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/person/form/life_events/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/person/form/relations/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/person/form/contact_information/> ] .
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/person/form/identity/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/person/form/description/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/person/form/life_events/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/person/form/relations/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/person/form/contact_information/> ] .
 
-<https://ams.memorix.io/record-type/person/form/identity/>
+<<?=$baseURL?>/record-type/person/form/identity/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "identity" ;
     mmx:TreeNode\#position      1.0 ;
@@ -228,7 +228,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfLiteral ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/person/form/identity/other_forms_of_name/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/person/form/identity/other_forms_of_name/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            5.0 ;
                                   mmx:TreeNode\#key                 "identifier" ;
@@ -245,7 +245,7 @@
                                                                       mmx:RdfResource\#isMultiValue         false ;
                                                                       mmx:RdfResource\#source               mmx:RdfSource\/RkdArtist ] ] .
 
-<https://ams.memorix.io/record-type/person/form/identity/other_forms_of_name/>
+<<?=$baseURL?>/record-type/person/form/identity/other_forms_of_name/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#key           "other_forms_of_name" ;
     mmx:TreeNode\#position      4.0 ;
@@ -260,7 +260,7 @@
                                   mmx:Field\#handler                [ a                                     mmx:RdfLiteral ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/person/form/description/>
+<<?=$baseURL?>/record-type/person/form/description/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "description" ;
     mmx:TreeNode\#position      2.0 ;
@@ -273,7 +273,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/nationality>] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/nationality>] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "gender" ;
@@ -281,7 +281,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/gender>] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/gender>] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "biography" ;
@@ -307,23 +307,23 @@
                                                                       mmx:RdfLiteral\#view                  mmx:FieldViewType\/Text ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/person/form/life_events/>
+<<?=$baseURL?>/record-type/person/form/life_events/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "life_events" ;
     mmx:TreeNode\#position      3.0 ;
     mmx:FieldGroup\#style       mmx:FieldGroupStyle\/section ;
     mmx:FieldGroup\#label       "Levensloop"@nl ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/person/form/life_events/birth/> ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/person/form/life_events/death/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/person/form/life_events/birth/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/person/form/life_events/death/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "period_of_activity" ;
                                   mmx:Field\#label                  "Werkzame periode"@nl ;
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] ;
-    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/person/form/place_of_activity/> .
+    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/person/form/place_of_activity/> .
 
-<https://ams.memorix.io/record-type/person/form/life_events/birth/>
+<<?=$baseURL?>/record-type/person/form/life_events/birth/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "birth" ;
     mmx:TreeNode\#position      1.0 ;
@@ -347,7 +347,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] .
 
-<https://ams.memorix.io/record-type/person/form/life_events/death/>
+<<?=$baseURL?>/record-type/person/form/life_events/death/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "death" ;
     mmx:TreeNode\#position      2.0 ;
@@ -371,14 +371,14 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] .
 
-<https://ams.memorix.io/record-type/person/form/place_of_activity/>
+<<?=$baseURL?>/record-type/person/form/place_of_activity/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "place_of_activity" ;
     mmx:TreeNode\#position      4.0 ;
     mmx:FieldGroup\#style       mmx:FieldGroupStyle\/field-set ;
     mmx:FieldGroup\#label       "Plaats van werkzaamheid"@nl ;
     mmx:TreeNode\#repeatable    false ; #TODO this fieldgroup should be repeatable, but the import api can't handle that at the moment
-    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/person/form/place_of_activity/location/> ;
+    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/person/form/place_of_activity/location/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "start_date" ;
@@ -400,7 +400,7 @@
                                                                       mmx:RdfLiteral\#view                  mmx:FieldViewType\/Text ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/person/form/place_of_activity/location/>
+<<?=$baseURL?>/record-type/person/form/place_of_activity/location/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "place_of_activity_location" ;
     mmx:TreeNode\#position      1.0 ;
@@ -429,15 +429,15 @@
                                   mmx:Field\#label                  "Address (BAG)"@nl ;
                                   mmx:Field\#handler                mmx:FieldHandler\/Bag ] .
 
-<https://ams.memorix.io/record-type/person/form/relations/>
+<<?=$baseURL?>/record-type/person/form/relations/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "relations" ;
     mmx:TreeNode\#position      4.0 ;
     mmx:FieldGroup\#style       mmx:FieldGroupStyle\/section ;
     mmx:FieldGroup\#label       "Relaties"@nl ;
-    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/person/form/relations/relation/> .
+    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/person/form/relations/relation/> .
 
-<https://ams.memorix.io/record-type/person/form/relations/relation/>
+<<?=$baseURL?>/record-type/person/form/relations/relation/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "relation" ;
     mmx:TreeNode\#position      1.0 ;
@@ -450,7 +450,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/personal_relation_type>] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/personal_relation_type>] ] ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "related_person" ;
@@ -458,9 +458,9 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         true ;
-                                                                      mmx:RdfResource\#source:id <https://ams.memorix.io/record-type/person> ] ] .
+                                                                      mmx:RdfResource\#source:id <<?=$baseURL?>/record-type/person> ] ] .
 
-<https://ams.memorix.io/record-type/person/form/contact_information/>
+<<?=$baseURL?>/record-type/person/form/contact_information/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "contact_information" ;
     mmx:TreeNode\#position      5.0 ;
@@ -518,23 +518,23 @@
 
 ### Corporate Body Record Type ###
 
-<https://ams.memorix.io/record-type/corporate_body>
+<<?=$baseURL?>/record-type/corporate_body>
     a                           mmx:RecordType ;
-    rt:tenant                   <https://ams.memorix.io> ;
+    rt:tenant                   <<?=$baseURL?>> ;
     rt:id                       [ a                                 mmx:RecordTypeId ;
-                                  mmx:RecordTypeId\#uuid            "03edc284-92da-4ed5-b664-ac074f573b98" ] ;
+                                  mmx:RecordTypeId\#uuid            "85ace0d0-0d59-11eb-a648-fb6a4fdf6dec" ] ;
     rt:removed                  false ;
     rt:category                 mmx:RecordTypeCategory\/collection ;
     rt:name                     "Organisatie"@nl ;
     rt:description              "RDF Implementatie van Organisatie Recordtype"@nl ;
     rt:configuration            [ a                                 mmx:FormConfiguration ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/corporate_body/form/identity/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/corporate_body/form/description/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/corporate_body/form/life_events/>  ;
-#                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/corporate_body/form/relations/>  ;
-                                  mmx:FormConfiguration\#section    <https://ams.memorix.io/record-type/corporate_body/form/contact_information/> ] .
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/corporate_body/form/identity/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/corporate_body/form/description/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/corporate_body/form/life_events/>  ;
+#                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/corporate_body/form/relations/>  ;
+                                  mmx:FormConfiguration\#section    <<?=$baseURL?>/record-type/corporate_body/form/contact_information/> ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/identity/>
+<<?=$baseURL?>/record-type/corporate_body/form/identity/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_identity" ;
     mmx:TreeNode\#position      1.0 ;
@@ -548,7 +548,7 @@
                                   mmx:Field\#searchWeight           4 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfLiteral ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/corporate_body/form/identity/other_forms_of_name/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/corporate_body/form/identity/other_forms_of_name/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:Field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "cb_identifier" ;
@@ -565,7 +565,7 @@
                                                                       mmx:RdfResource\#isMultiValue         false ;
                                                                       mmx:RdfResource\#source               mmx:RdfSource\/RkdArtist ] ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/identity/other_forms_of_name/>
+<<?=$baseURL?>/record-type/corporate_body/form/identity/other_forms_of_name/>
     a                           mmx:FieldGroup ;
     mmx:TreeNode\#key           "cb_other_forms_of_name" ;
     mmx:TreeNode\#position      2.0 ;
@@ -581,7 +581,7 @@
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
 
-<https://ams.memorix.io/record-type/corporate_body/form/description/>
+<<?=$baseURL?>/record-type/corporate_body/form/description/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_description" ;
     mmx:TreeNode\#position      2.0 ;
@@ -594,7 +594,7 @@
                                   mmx:Field\#searchWeight           1.0 ;
                                   mmx:Field\#handler                [ a                                     mmx:RdfResource ;
                                                                       mmx:RdfResource\#isMultiValue         false ;
-                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/corporate_body_type>] ] ;
+                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/corporate_body_type>] ] ;
 
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            2.0 ;
@@ -621,23 +621,23 @@
                                                                       mmx:RdfLiteral\#view                  mmx:FieldViewType\/Text ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/life_events/>
+<<?=$baseURL?>/record-type/corporate_body/form/life_events/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_life_events" ;
     mmx:TreeNode\#position      3.0 ;
     mmx:FieldGroup\#style       mmx:FieldGroupStyle\/section ;
     mmx:FieldGroup\#label       "Levensloop"@nl ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/corporate_body/form/life_events/formation/> ;
-    mmx:FieldGroup\#child       <https://ams.memorix.io/record-type/corporate_body/form/life_events/dissolution/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/corporate_body/form/life_events/formation/> ;
+    mmx:FieldGroup\#child       <<?=$baseURL?>/record-type/corporate_body/form/life_events/dissolution/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            3.0 ;
                                   mmx:TreeNode\#key                 "cb_period_of_activity" ;
                                   mmx:Field\#label                  "Werkzame periode"@nl ;
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] ;
-    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/corporate_body/form/place_of_activity/> .
+    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/corporate_body/form/place_of_activity/> .
 
-<https://ams.memorix.io/record-type/corporate_body/form/life_events/formation/>
+<<?=$baseURL?>/record-type/corporate_body/form/life_events/formation/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_formation" ;
     mmx:TreeNode\#position      1.0 ;
@@ -661,7 +661,7 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/life_events/dissolution/>
+<<?=$baseURL?>/record-type/corporate_body/form/life_events/dissolution/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_dissolution" ;
     mmx:TreeNode\#position      2.0 ;
@@ -685,14 +685,14 @@
                                   mmx:Field\#searchWeight           1 ;
                                   mmx:Field\#handler                mmx:FieldHandler\/DateLiteral ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/place_of_activity/>
+<<?=$baseURL?>/record-type/corporate_body/form/place_of_activity/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_place_of_activity" ;
     mmx:TreeNode\#position      4.0 ;
     mmx:FieldGroup\#style       mmx:FieldGroupStyle\/field-set ;
     mmx:FieldGroup\#label       "Plaats van werkzaamheid"@nl ;
     mmx:TreeNode\#repeatable    false ; #TODO: this fieldgroup should be repeatable, but the import api can't handle that at this moment
-    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/corporate_body/form/place_of_activity/location/> ;
+    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/corporate_body/form/place_of_activity/location/> ;
     mmx:FieldGroup\#child       [ a                                 mmx:field ;
                                   mmx:TreeNode\#position            2.0 ;
                                   mmx:TreeNode\#key                 "cb_activity_start_date" ;
@@ -714,7 +714,7 @@
                                                                       mmx:RdfLiteral\#view                  mmx:FieldViewType\/Text ;
                                                                       mmx:RdfLiteral\#dataType              xsd:string ] ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/place_of_activity/location/>
+<<?=$baseURL?>/record-type/corporate_body/form/place_of_activity/location/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_place_of_activity_location" ;
     mmx:TreeNode\#position      1.0 ;
@@ -743,15 +743,15 @@
                                   mmx:Field\#label                  "Address (BAG)"@nl ;
                                   mmx:Field\#handler                mmx:FieldHandler\/Bag ] .
 
-#<https://ams.memorix.io/record-type/corporate_body/form/relations/>
+#<<?=$baseURL?>/record-type/corporate_body/form/relations/>
 #    a                           mmx:fieldGroup ;
 #    mmx:TreeNode\#key           "cbrelations" ;
 #    mmx:TreeNode\#position      4.0 ;
 #    mmx:FieldGroup\#style       mmx:FieldGroupStyle\/section ;
 #    mmx:FieldGroup\#label       "Relaties"@nl ;
-#    mmx:FieldGroup\#child        <https://ams.memorix.io/record-type/corporate_body/form/relations/relation/> .
+#    mmx:FieldGroup\#child        <<?=$baseURL?>/record-type/corporate_body/form/relations/relation/> .
 
-#<https://ams.memorix.io/record-type/corporate_body/form/relations/relation/>
+#<<?=$baseURL?>/record-type/corporate_body/form/relations/relation/>
 #    a                           mmx:fieldGroup ;
 #    mmx:TreeNode\#key           "relation" ;
 #    mmx:TreeNode\#position      1.0 ;
@@ -763,7 +763,7 @@
 #                                  mmx:Field\#searchWeight           1 ;
 #                                  mmx:Field\#handler                [ a                                     mmx:RdfResource ;
 #                                                                      mmx:RdfResource\#isMultiValue         false ;
-#                                                                      mmx:RdfResource\#vocabulary           <https://ams.memorix.io/collections/vocabularies/personal_relation_type>] ] ;
+#                                                                      mmx:RdfResource\#vocabulary           <<?=$baseURL?>/collections/vocabularies/personal_relation_type>] ] ;
 #    mmx:FieldGroup\#child       [ a                                 mmx:Field ;
 #                                  mmx:TreeNode\#position            2.0 ;
 #                                  mmx:TreeNode\#key                 "related_person" ;
@@ -771,9 +771,9 @@
 #                                  mmx:Field\#searchWeight           1.0 ;
 #                                  mmx:Field\#handler                [ a                                     mmx:RdfResource ;
 #                                                                      mmx:RdfResource\#isMultiValue         true ;
-#                                                                      mmx:RdfResource\#source:id <https://ams.memorix.io/record-type/person> ] ] .
+#                                                                      mmx:RdfResource\#source:id <<?=$baseURL?>/record-type/person> ] ] .
 
-<https://ams.memorix.io/record-type/corporate_body/form/contact_information/>
+<<?=$baseURL?>/record-type/corporate_body/form/contact_information/>
     a                           mmx:fieldGroup ;
     mmx:TreeNode\#key           "cb_contact_information" ;
     mmx:TreeNode\#position      5.0 ;

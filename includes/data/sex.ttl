@@ -1,25 +1,25 @@
 ### Geslacht concepten ###
 
-<https://ams.memorix.io/collections/vocabularies/sex/male>
+<<?=$baseURL?>/collections/vocabularies/sex/male>
     a                           skos:Concept;
     dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
-    skos:inScheme               <https://ams.memorix.io/collections/vocabularies/sex> ;
+    skos:inScheme               <<?=$baseURL?>/collections/vocabularies/sex> ;
     skos:prefLabel              "Mannelijk"@nl;
     skos:scopeNote              ""@nl;
     skos:exactMatch             <http://vocab.getty.edu/aat/300189559> .
 
-<https://ams.memorix.io/collections/vocabularies/sex/female>
+<<?=$baseURL?>/collections/vocabularies/sex/female>
     a                           skos:Concept;
     dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
-    skos:inScheme               <https://ams.memorix.io/collections/vocabularies/sex> ;
+    skos:inScheme               <<?=$baseURL?>/collections/vocabularies/sex> ;
     skos:prefLabel              "Vrouwelijk"@nl;
     skos:scopeNote              ""@nl;
     skos:exactMatch             <http://vocab.getty.edu/aat/300189557> .
 
-<https://ams.memorix.io/collections/vocabularies/sex/hermafrodiet>
+<<?=$baseURL?>/collections/vocabularies/sex/hermafrodiet>
     a                           skos:Concept;
     dcterms:created             "2020-09-22T08:00:00Z"^^xsd:dateTime;
-    skos:inScheme               <https://ams.memorix.io/collections/vocabularies/sex> ;
+    skos:inScheme               <<?=$baseURL?>/collections/vocabularies/sex> ;
     skos:prefLabel              "Hermafrodiet"@nl;
     skos:scopeNote              "Behorend bij of de aard hebbend van een hermafrodiet, met een combinatie van mannelijke en vrouwelijke kenmerken."@nl;
     skos:exactMatch             <http://vocab.getty.edu/aat/300189557> .

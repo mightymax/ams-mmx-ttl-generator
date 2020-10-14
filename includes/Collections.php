@@ -12,9 +12,10 @@ while ($row = $sth->fetch(PDO::FETCH_OBJ)) {
     $uuid = $dbh->GUID();
     
     include __DIR__ . '/templates/Collection.ttl';
-
-    ### Hard coded extra Collection ###
-    $row->dc_provenance = "Personen en Instellingen";
-    $uuid = "1e8ecdeb-7053-40a2-9f59-b4da140c9547";
-    include __DIR__ . '/templates/Collection.ttl';
 }
+
+### Hard coded extra Collection ###
+$row->dc_provenance = "Personen en Instellingen";
+$uuid = "1e8ecdeb-7053-40a2-9f59-b4da140c9547";
+include __DIR__ . '/templates/Collection.ttl';
+

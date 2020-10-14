@@ -1,4 +1,7 @@
 <?php
+$tenant = "pic";
+$baseURL = "https://{$tenant}.memorix.io";
+
 $modules = [
     'Prefix',
     'RecordTypes',
@@ -53,7 +56,6 @@ while (count($argv)) {
         $requestedModules[] = $modules[$ix];
     }
 }
-
 if (count($requestedModules))
     $modules = $requestedModules;
 

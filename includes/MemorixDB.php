@@ -161,12 +161,14 @@ class MemorixDB extends PDO
     
     public static function getRandomPersonIri()
     {
+        global $baseURL;
+        
         $iris = [
-            'https://ams.memorix.io/record/person/nico_swaager',
-            'https://ams.memorix.io/record/person/glw_oppenheim',
-            'https://ams.memorix.io/record/person/frits_weeda',
-            'https://ams.memorix.io/record/person/robert_klein',
-            'https://ams.memorix.io/record/person/pieter_oosterhuis'
+            $baseURL . '/record/person/nico_swaager',
+            $baseURL . '/record/person/glw_oppenheim',
+            $baseURL . '/record/person/frits_weeda',
+            $baseURL . '/record/person/robert_klein',
+            $baseURL . '/record/person/pieter_oosterhuis'
         ];
         return $iris[rand(0, count($iris)-1)];
     }

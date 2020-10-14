@@ -1,13 +1,13 @@
-<https://ams.memorix.io/record/corporate_body/<?=$hash?>> a mmx:Record ;
+<<?=$baseURL?>/record/corporate_body/<?=$hash?>> a mmx:Record ;
     record:uuid                 "<?=$uuid?>" ;
-    mmx:tenant                  <https://ams.memorix.io> ;
+    mmx:tenant                  <<?=$baseURL?>> ;
     record:removed              false ;
     record:creator              [ 
       a mmx:User ;
       user:uuid  "7fbf40bf-4627-402b-958c-c63a252bc121" 
     ] ;
-    record:recordType <https://ams.memorix.io/record-type/corporate_body> ;
-    record:collection <https://ams.memorix.io/collection/persons_and_institutions> ;
+    record:recordType <<?=$baseURL?>/record-type/corporate_body> ;
+    record:collection <<?=$baseURL?>/collection/persons_and_institutions> ;
     record:formValues [
         a mmx:FieldGroupValues ;
         formValues:key "cb_identity" ;

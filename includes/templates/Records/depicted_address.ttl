@@ -1,10 +1,10 @@
 #### DEPICTED ADDRESS ####
-<https://ams.memorix.io/record/image/<?=$row->uuid?>/content_description/depicted_address> a mmx:FieldGroupValues ;
+<<?=$baseURL?>/record/image/<?=$row->uuid?>/content_description/depicted_address> a mmx:FieldGroupValues ;
   formValues:key "depicted_address" ;
   formValues:child [
       a  fieldValue:RdfResource ;
       fieldValue:isMultiValue false ;
-      fieldValue:resource <https://ams.memorix.io/collections/vocabularies/streets/{$street_uuid}>
+      fieldValue:resource <<?=$baseURL?>/collections/vocabularies/streets/{$street_uuid}>
   ],
   [
       a fieldValue:RdfLiteral ;
